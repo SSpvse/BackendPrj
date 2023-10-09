@@ -1,0 +1,9 @@
+server:
+    port: 8081
+
+
+jason:
+    happyWord: "pirate"
+
+rnd:
+    number: ${random.int(1,100}

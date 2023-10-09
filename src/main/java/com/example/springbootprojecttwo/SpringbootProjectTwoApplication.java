@@ -1,5 +1,6 @@
 package com.example.springbootprojecttwo;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -10,6 +11,14 @@ public class SpringbootProjectTwoApplication {
 
         SpringApplication.run(SpringbootProjectTwoApplication.class, args);
 
+
+
+
+        Tobias number = new Tobias();
+
+        int nr = number.getTobias();
+
+        System.out.println(nr);
 
 
 
