@@ -8,6 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringbootProjectTwoApplication {
 
     public static void main(String[] args) {
+        //asdasdasdasd
 
         SpringApplication.run(SpringbootProjectTwoApplication.class, args);
 
@@ -15,9 +16,7 @@ public class SpringbootProjectTwoApplication {
 
 
         Tobias number = new Tobias();
-
         int nr = number.getTobias();
-
         System.out.println(nr);
 
 
